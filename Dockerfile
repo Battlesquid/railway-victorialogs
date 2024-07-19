@@ -1,4 +1,4 @@
 FROM victoriametrics/victoria-logs:latest
-EXPOSE 9428
+EXPOSE 8000
 ENTRYPOINT ["/victoria-logs-prod"]
-CMD ["-httpListenAddr", "0.0.0.0:9428"]
+CMD ["-httpListenAddr", "0.0.0.0:8000"]
