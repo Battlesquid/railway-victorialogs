@@ -7,4 +7,5 @@ datasources:
     isDefault: true
     basicAuth: true
     basicAuthUser: $VL_USERNAME
-    basicAuthPassword: $VL_PASSWORD
+    secureJsonData:
+      basicAuthPassword: $VL_PASSWORD
