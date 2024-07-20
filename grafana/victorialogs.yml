@@ -3,7 +3,7 @@ datasources:
   - name: VictoriaLogs
     type: victorialogs-datasource
     access: proxy
-    url: http://0.0.0.0:$VL_PORT
+    url: http://victorialogs.railway.internal:$VL_PORT
     isDefault: true
     basicAuth: true
     basicAuthUser: $VL_USERNAME
