@@ -3,7 +3,7 @@ datasources:
   - name: VictoriaLogs
     type: victorialogs-datasource
     access: proxy
-    url: http://0.0.0.0:$PORT
+    url: http://0.0.0.0:$V_PORT
     isDefault: true
     basicAuth: true
     basicAuthUser: $V_USERNAME
